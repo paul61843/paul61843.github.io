@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puzzle</title>
+</head>
+<script>
+    const puzzle = [
+        'https://ithelp.ithome.com.tw/articles/10197904',
+        'https://lovasoa.github.io/salesman.js/',
+        'https://www.google.com.tw/',
+    ];
+    function getRandom(x){
+        return Math.floor(Math.random()*x);
+    };
+
+    function showLink() {
+        const result = getRandom(puzzle.length);
+        const link = puzzle[result];
+    
+        document.getElementById('link-content').innerHTML = `<a href="${link}">${link}</a>`
+    }
+</script>
+<body onload="showLink()">
+    <div id="link-content"></div>
+</body>
+</html>
