@@ -27,7 +27,7 @@
             this.id = urlParams.get('id') || '';
             this.name = urlParams.get('name') || '';
 
-            const confirmResult = confirm(`是否要打卡`)
+            const confirmResult = confirm(`${this.name} 是否要打卡`)
             this.time = new Date();
             if (confirmResult) {
                 alert(`${this.name} 打卡成功 ${this.time.toISOString().split('T')[0]}`)
