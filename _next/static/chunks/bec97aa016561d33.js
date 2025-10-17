@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,18566,(t,o,u)=>{o.exports=t.r(76562)},31713,t=>{"use strict";t.s(["default",()=>e]);var o=t.i(43476),u=t.i(18566);function e(){let t=(0,u.useRouter)();return(0,o.jsx)("button",{onClick:()=>t.push("/about"),children:"前往 About"})}}]);

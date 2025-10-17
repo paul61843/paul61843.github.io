@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,18566,(t,e,o)=>{e.exports=t.r(76562)},60078,t=>{"use strict";t.s(["default",()=>r]);var e=t.i(43476),o=t.i(18566);function r(){return(0,o.useRouter)(),(0,e.jsx)("div",{children:"about"})}}]);
